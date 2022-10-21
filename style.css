@@ -60,3 +60,9 @@ body {
   right: 0;
   margin: 5px;
 }
+@media (max-width: 490px) {
+  .input3 {
+    top: 20%;
+  }
+}
+
