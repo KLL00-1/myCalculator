@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(41, 11, 150);
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 700px;
+
+  background-color: rgba(0, 0, 0, 0.603);
+  margin: auto;
+  border-radius: 10px;
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 4px 4px 15px white;
+}
+.fon {
+  background-image: url(https://img3.goodfon.ru/original/2560x1600/f/88/fon-formuly-zakony-znaki.jpg);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+  position: absolute;
+}
+.container .buttons button {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.container .buttons button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+.input {
+  margin: 15px;
+  text-align: center;
+}
+.input input {
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.input3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
